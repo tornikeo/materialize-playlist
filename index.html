@@ -94,19 +94,45 @@
       <img src="img/stars.jpg" alt="" class="responsive-img">
     </div>
   </div>
-  
+
   <!-- services / tabs -->
-  <div class="container">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae vero consequuntur enim itaque sit, aliquam tempora pariatur blanditiis molestias aut consequatur dolor eligendi, corrupti, doloremque quos ab magnam laborum.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae vero consequuntur enim itaque sit, aliquam tempora pariatur blanditiis molestias aut consequatur dolor eligendi, corrupti, doloremque quos ab magnam laborum.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae vero consequuntur enim itaque sit, aliquam tempora pariatur blanditiis molestias aut consequatur dolor eligendi, corrupti, doloremque quos ab magnam laborum.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae vero consequuntur enim itaque sit, aliquam tempora pariatur blanditiis molestias aut consequatur dolor eligendi, corrupti, doloremque quos ab magnam laborum.</p>
-  </div>
+  <section class="container section " id="services">
+    <div class="row">
+      <div class="col s12 l4">
+        <h2 class="indigo-text text-darken-4">What I do...</h2>
+        <div class="container">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit inventore dolorem vel atque unde aliquid quo reprehenderit! Voluptate quidem nisi sequi, optio laborum ad modi rem quae similique natus illum!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit inventore dolorem vel atque unde aliquid quo reprehenderit! Voluptate quidem nisi sequi, optio laborum ad modi rem quae similique natus illum!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit inventore dolorem vel atque unde aliquid quo reprehenderit! Voluptate quidem nisi sequi, optio laborum ad modi rem quae similique natus illum!</p>
+        </div>
+      </div>
+      <div class="col s12 l6 offs et-l2">
+        <ul class="tabs">
+          <li class="tab col s6">
+            <a href="#photography" class="indigo-text text-darken-4">Photography</a>
+          </li>
+          <li class="tab col s6">
+            <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+          </li>
+        </ul>
+        <div id="photography" class="col s12">
+          <p class="flow-text inigo-text text-darken-4">PHOTOGRAPHY</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam pariatur similique a sunt, voluptatum modi quaerat provident suscipit ratione culpa quibusdam aut earum dolor ducimus quas commodi consequuntur tempora aspernatur.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa accusamus perspiciatis at in fuga est maxime nemo similique. Ex fuga quam reiciendis necessitatibus, in exercitationem possimus! Alias, quisquam magni?</p>
+        </div>
+        <div id="editing" class="col s12">
+          <p class="flow-text inigo-text text-darken-4">EDITING</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam pariatur similique a sunt, voluptatum modi quaerat provident suscipit ratione culpa quibusdam aut earum dolor ducimus quas commodi consequuntur tempora aspernatur.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ipsa accusamus perspiciatis at in fuga est maxime nemo similique. Ex fuga quam reiciendis necessitatibus, in exercitationem possimus! Alias, quisquam magni?</p>
+        </div>
+      </div> 
+    </div>
+  </section>
 
   <!-- parallax -->
   <div class="parallax-container">
     <div class="parallax">
-      <img src="img/stars.jpg" alt="" class="responsive-img">
+      <img src="img/street.jpg" alt="" class="responsive-img">
     </div>
   </div>
   <!-- contact form -->
@@ -122,6 +148,7 @@
       $('.sidenav').sidenav();
       $('.materialboxed').materialbox();
       $('.parallax').parallax();
+      $('.tabs').tabs();
     });
   </script>
 </body>
