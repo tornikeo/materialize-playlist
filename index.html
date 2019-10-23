@@ -33,19 +33,23 @@
 
   <!-- navbar -->
   <header>
-    <nav class="nav-wrapper transparent">
-      <div class="container">
-        <a href="#" class="brand-logo">Photo Ninja</a> 
-        <a href="#" class="sidenav-trigger" data-target="mobile-menu">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li> 
-        </ul>
-      </div>
-    </nav>
+    <div class="navbar-fixed ">
+      <nav class="transparent">
+        <div class=" nav-wrapper ">
+          <div class="container">
+            <a href="#" class="brand-logo">Photo Ninja</a> 
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#">Photos</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
   </header>
     <ul class="sidenav grey lighten-2" id="mobile-menu">
       <li><a href="#">Photos</a></li>
@@ -85,11 +89,26 @@
   </section>
 
   <!-- parallax -->
-
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/stars.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
+  
   <!-- services / tabs -->
+  <div class="container">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae vero consequuntur enim itaque sit, aliquam tempora pariatur blanditiis molestias aut consequatur dolor eligendi, corrupti, doloremque quos ab magnam laborum.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae vero consequuntur enim itaque sit, aliquam tempora pariatur blanditiis molestias aut consequatur dolor eligendi, corrupti, doloremque quos ab magnam laborum.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae vero consequuntur enim itaque sit, aliquam tempora pariatur blanditiis molestias aut consequatur dolor eligendi, corrupti, doloremque quos ab magnam laborum.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae vero consequuntur enim itaque sit, aliquam tempora pariatur blanditiis molestias aut consequatur dolor eligendi, corrupti, doloremque quos ab magnam laborum.</p>
+  </div>
 
   <!-- parallax -->
-
+  <div class="parallax-container">
+    <div class="parallax">
+      <img src="img/stars.jpg" alt="" class="responsive-img">
+    </div>
+  </div>
   <!-- contact form -->
 
   <!-- footer -->
@@ -101,8 +120,8 @@
     $(document).ready(function(){
 
       $('.sidenav').sidenav();
-      $('.materialboxed').materialbox()
-
+      $('.materialboxed').materialbox();
+      $('.parallax').parallax();
     });
   </script>
 </body>
